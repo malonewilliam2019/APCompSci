@@ -1,0 +1,7 @@
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64548:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/andrewrobertson/IdeaProjects/Assignment 15/out/production/Assignment 15" Main
+0: (Binary) 000000000 (Octal) 000000000 (Hex) 000000000 (Andrew) 000000000
+1: (Binary) 000000001 (Octal) 000000001 (Hex) 000000001 (Andrew) 000000001
+63: (Binary) 000111111 (Octal) 000000077 (Hex) 00000003F (Andrew) 00000001R
+127: (Binary) 001111111 (Octal) 000000177 (Hex) 00000007F (Andrew) 00000003J
+255: (Binary) 011111111 (Octal) 000000377 (Hex) 0000000FF (Andrew) 000000073
+256: (Binary) 100000000 (Octal) 000000400 (Hex) 000000100 (Andrew) 000000074
