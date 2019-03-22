@@ -1,0 +1,33 @@
+import java.util.Random;
+
+public class Mage extends PlayerCharacter{
+
+        private int wisedom;
+
+        public Mage( String newName){
+            name = newName;
+            System.out.println("A mage named " + name + " has been created!");
+
+            Random rand=new Random();
+
+            strength=7+(rand.nextInt(6)+1 );
+            inteligence=15+(rand.nextInt(6)+1 );
+            agility=8+(rand.nextInt(6)+1 );
+            wisedom=10+(rand.nextInt(6)+1 );
+
+            MP=MPmax=inteligence+(wisedom*2);
+            HP=HPmax=(strength);
+
+            showStats();
+            System.out.println("There are "+count+" characters");
+        }
+
+        public void showStats(){
+            System.out.printf("%s, a Mage:\n",name);
+            super.showStats();
+            System.out.printf("WIS:%3d\n",wisedom);
+
+        }
+    }
+
+
