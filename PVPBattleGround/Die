@@ -1,0 +1,11 @@
+import java.util.Random;
+public class Die {
+
+    public void die(){
+    }
+
+    public int roll(){
+        Random rand=new Random();
+        return rand.nextInt(6)+1;
+    }
+}
